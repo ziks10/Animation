@@ -1,0 +1,40 @@
+body{
+    background: url(https://ak.picdn.net/shutterstock/videos/23424061/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bird{
+    width: 5%;
+    margin-top: 750px;
+    align-content: center;
+    animation: car_start1 18s infinite;
+    animation-direction: alternate-reverse;
+}
+.treebuttom img{
+    width: 10%;
+    margin-top: 400px;
+    margin-right: 220px;
+}
+.car1 img{
+    width: 15%;
+    margin-bottom: 200px;
+    animation: car_start1 5s infinite;
+    animation-direction: reverse;
+}
+.car2 img{
+    width: 15%;
+    margin-bottom: 650px;
+    animation: car_start2 5s infinite;
+}
+@keyframes car_start1{
+    from{}
+    to{
+        margin-left: 100%;
+    }
+}
+@keyframes car_start2{
+    from{}
+    to{
+        margin-left: 100%;
+    }
+}
